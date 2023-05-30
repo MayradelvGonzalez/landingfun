@@ -13,11 +13,12 @@
 text-align: center;
 margin-top: 0.5em;
 }
+
 .nav{
     display: flex;
-    width: 20%;
+    min-width: 20%;
     right: 2em;
-    height: 8vh;
+    min-height: 8vh;
     border-radius: 0.2em;
     justify-content: space-around;
     position:fixed;
@@ -35,6 +36,6 @@ ul li a{
     border-radius: 0.3em;
 }
 
-ul .nav-link a :hover{
+ul li a :hover{
     color: blueviolet;
 }
