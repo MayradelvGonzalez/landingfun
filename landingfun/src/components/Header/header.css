@@ -4,26 +4,37 @@
 }
 
 .navegacion{
-    /* height: 20vh; */
+    height: 15vh;
     display: flex;
     justify-content:space-around;
     text-align: center;
-
+}
+.navegacion h1{
+text-align: center;
+margin-top: 0.5em;
 }
 .nav{
     display: flex;
     width: 20%;
     right: 2em;
-    height: 30vh;
-    justify-content: space-between;
-   position:fixed;
+    height: 8vh;
+    border-radius: 0.2em;
+    justify-content: space-around;
+    position:fixed;
+    margin-top: 1em;
+    padding-top: 1em;
+    list-style-type: none;
+    background-color: white;
 }
 
 ul li a{
     color: black;
     text-decoration: none;
-    background-color: rgb(228, 220, 220);
-    padding: 0.5em;
+    font-weight: bold;
     margin: 0.5em;
     border-radius: 0.3em;
+}
+
+ul .nav-link a :hover{
+    color: blueviolet;
 }
