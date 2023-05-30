@@ -1,6 +1,6 @@
 import React from 'react';
-import videoFondo from '../videoFondo.mp4';
-import './style.css';
+import videoFondo from '../../assets/videoFondo.mp4';
+import './main.css';
 
 function Main() {
   return (
