@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navegacion h1{
+    justify-self:flex-start
+}
+.navegacion{
+    height: 20vh;
+    display: flex;
+    justify-content:space-around;
+    
+
+}
+.nav{
+    display: flex;
+    width: 20%;
+    right: 2em;
+    height: 30vh;
+    justify-content: space-between;
+   position:fixed;
+   
+    
+}
