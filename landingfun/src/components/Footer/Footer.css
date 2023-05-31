@@ -4,3 +4,11 @@
     
 }
 
+.foot{
+    background-color: rgb(188, 185, 180);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+    text-align: center;
+ }
