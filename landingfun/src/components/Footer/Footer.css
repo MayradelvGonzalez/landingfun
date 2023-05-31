@@ -1,14 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    
 }
 
-.foot{
-    background-color: rgb(188, 185, 180);
+.foot {
+    background-color: rgb(186, 180, 180);
     color: black;
     display: flex;
     justify-content: space-around;
     height: 20vh;
     text-align: center;
- }
+}
+
+.foot .texto,
+.foot .info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
