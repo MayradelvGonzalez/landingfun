@@ -14,7 +14,10 @@
 text-align: center;
 margin-top: 0.5em;
 }
-
+.avatar img{
+width: 17%;
+align-items: center;
+}
 .nav{
     display: flex;
     min-width: 20%;
