@@ -3,18 +3,33 @@
     padding: 0;
 }
 
-.foot {
+footer {
     background-color: rgb(138, 134, 134);
     color: black;
     display: flex;
-    height: 25vh;
+    min-height: 27vh;
     justify-content: space-around;
     text-align: center;
    flex-direction: column;
 }
-.foot button{
-    height: 8vh;
+.foot{
+    background-color: gray;
 }
+.foot button{
+    height: 7vh;
+    margin: 1em;
+    background-color: aqua;
+    cursor: pointer;
+    font-weight: bold;
+    border: 0.3em black unset;
+    padding: 0.1em;
+    
+}
+.foot button:hover{
+    text-decoration: none;
+    border: 0.3em black inset;
+}
+
 .foot .texto,
 .foot .info {
     display: flex;

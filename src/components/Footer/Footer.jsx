@@ -4,7 +4,8 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <div className='foot'><h3>Contacto</h3><p>Lorem ipsum dolor sit amet consectetur.</p>
+    <div className='foot'>
+      <h3>📩</h3><p>comunicate conmigo!</p>
 
 
 <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">

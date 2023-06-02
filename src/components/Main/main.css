@@ -1,20 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-main{
+main {
     width: 100%;
     height: 90vh;
 }
-video{
+.clasemain{
+    background-color: gray;
+
+}
+
+video {
     width: 100%;
     height: 100vh;
     object-fit: cover;
 
 }
-.contain{
+
+.contain {
     position: absolute;
     top: 0;
     width: 100%;
@@ -24,15 +30,16 @@ video{
     justify-content: center;
     flex-direction: column;
 }
-h1{
-    color:aquamarine;
+
+h1 {
+    color: aquamarine;
 }
-.overlay{
+
+.overlay {
     width: 100%;
     height: 100vh;
     position: absolute;
-    /* top: 0; */
     left: 0;
-    background-color: rgba(0,0 ,0 ,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 
 }

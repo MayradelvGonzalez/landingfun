@@ -4,7 +4,7 @@ import './main.css';
 
 function Main() {
   return (
-    <div>
+    <div className='clasemain'>
       <div className="overlay"></div>
       <video src={videoFondo} autoPlay loop muted />
       <div className="contain">
