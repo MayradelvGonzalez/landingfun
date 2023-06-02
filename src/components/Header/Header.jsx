@@ -2,7 +2,7 @@ import React from 'react';
 // import { Route, Routes } from 'react-router-dom';
 import './header.css';
 import  avatar from '../../assets/avatar.png';
-import Footer from '../Footer/Footer';
+// import Footer from '../Footer/Footer';
 
 function Header() {
   return (
