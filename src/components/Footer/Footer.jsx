@@ -1,21 +1,15 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
+import './Footer.css';
 
 function Footer() {
   return (
     <div className='foot'><h3>Contacto</h3><p>Lorem ipsum dolor sit amet consectetur.</p>
-{/* <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-</div>
-<div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-</div> */}
+
 
 <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
 
-<a href="mailto:mayradelvallegonzalez@gmail.com"><u>Enviar email</u></a>
+<a href="mailto:mayradelvallegonzalez@gmail.com" target='_BLANK'><u>Enviar email</u></a>
 
 </button>
     </div>

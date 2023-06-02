@@ -1,22 +1,24 @@
-@import '~bootstrap/scss/bootstrap.scss';
 * {
     margin: 0;
     padding: 0;
 }
 
 .foot {
-    background-color: rgb(186, 180, 180);
+    background-color: rgb(138, 134, 134);
     color: black;
     display: flex;
+    height: 25vh;
     justify-content: space-around;
-    height: 20vh;
     text-align: center;
+   flex-direction: column;
 }
-
+.foot button{
+    height: 8vh;
+}
 .foot .texto,
 .foot .info {
     display: flex;
     justify-content: center;
     text-align: center;
-    flex-direction: column;
+
 }
