@@ -10,6 +10,7 @@ main {
 }
 .clasemain{
     background-color: gray;
+ font-size: large;
 
 }
 
@@ -70,4 +71,21 @@ h1 {
     50% {
         border-color: orange;
     }
+}
+.clasemain button{
+    height: 7vh;
+    width: 10em;
+    margin: 1em;
+    background-color: rgb(218, 218, 218);
+    cursor: pointer;
+    font-weight: bold;
+    border: 0.3em black unset;
+    padding: 0.1em;
+    border-radius: 0.5em;
+    text-decoration: none;
+}
+
+.clasemain button:hover{
+    text-decoration: none;
+    border: 0.3em black inset;
 }

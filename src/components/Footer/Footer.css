@@ -22,7 +22,7 @@ footer {
     cursor: pointer;
     font-weight: bold;
     border: 0.3em black unset;
-    padding: 0.1em;
+    padding: 0.2em;
     border-radius: 0.5em;
 }
 .foot button:hover{
@@ -35,5 +35,4 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center;
-
 }
