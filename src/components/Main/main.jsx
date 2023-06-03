@@ -9,7 +9,9 @@ function Main() {
       <video src={videoFondo} autoPlay loop muted />
       <div className="contain">
         <h1>Bienvenidos</h1>
-        <p className='informacion'>Soy Mayra, desarrolladora FulStack MERN</p>
+        <div className='informacion'>
+        <p>Soy Mayra, desarrolladora FulStack MERN</p>
+        </div>
       </div>
     </div>
 

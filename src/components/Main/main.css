@@ -44,14 +44,15 @@ h1 {
 
 }
 
-.informacion{
+.informacion p{
     color: white;
     overflow: hidden;
-    border-right: 0.15em;
+    border-right: 0.20em solid orange;
     white-space: nowrap;
     margin: 0 auto;
+    width: fit-content;
     letter-spacing: 0.15em;
-    animation: typing 5.5s steps(30, end), blink-caret 0.5s step-end infinite;
+    animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 @keyframes typing{
     from {
@@ -63,10 +64,10 @@ h1 {
 }
 @keyframes blink-caret {
     from,
-    to{
+    to {
         border-color: transparent;
     }
-    50%{
+    50% {
         border-color: orange;
     }
 }
