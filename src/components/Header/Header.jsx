@@ -1,8 +1,7 @@
 import React from 'react';
-// import { Route, Routes } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import './header.css';
 import avatar from '../../assets/avatar.png';
-import { Link, NavLink } from 'react-router-dom';
 // import Footer from '../Footer/Footer';
 
 function Header() {
@@ -19,8 +18,8 @@ function Header() {
             <a class="nav-link" href="../Footer/Footer.jsx" id='enlace'>Contacto</a>
           </li>
         </ul> */}
+   
 
-  
   
       </div>
     </div>

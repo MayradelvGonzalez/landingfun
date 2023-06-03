@@ -21,13 +21,13 @@ footer {
     background-color: aquamarine;
     cursor: pointer;
     font-weight: bold;
-    border: 0.3em black unset;
+    border: 0.4em black unset;
     padding: 0.2em;
     border-radius: 0.5em;
 }
 .foot button:hover{
     text-decoration: none;
-    border: 0.3em black inset;
+    border: 0.2em black inset;
 }
 
 .foot .texto,

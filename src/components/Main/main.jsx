@@ -10,7 +10,9 @@ function Main() {
       <div className="contain">
         <h1>Bienvenidos</h1>
         <div className='informacion'>
-          <p>Soy Mayra, desarrolladora FulStack MERN</p>
+          <p>Soy Mayra, desarrolladora FullStack MERN
+          </p>
+
         </div>
         <div>
           <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
