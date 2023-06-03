@@ -4,7 +4,7 @@
 }
 
 .navegacion{
-    height: 15vh;
+    height: 14vh;
     display: flex;
     justify-content:space-around;
     text-align: center;
@@ -17,6 +17,7 @@ margin-top: 0.5em;
 .avatar img{
 width: 17%;
 align-items: center;
+filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7));
 }
 .nav{
     display: flex;

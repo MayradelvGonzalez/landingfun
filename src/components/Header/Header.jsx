@@ -7,15 +7,17 @@ import  avatar from '../../assets/avatar.png';
 function Header() {
   return (
     <div className='navegacion'>
-      <div> <h1>MVG</h1></div>
-<div className='avatar'><img src={ avatar } alt="avatar" /></div>
+
+{/* <div className='avatar'> */}
+  <img src={ avatar } alt="avatar" className='avatar' />
+  {/* </div> */}
       <div>
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Home</a>
+            <a class="nav-link" aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../Footer/Footer.jsx">Contact</a>
+            <a class="nav-link" href="../Footer/Footer.jsx">Contacto</a>
           </li>
         </ul></div>
         <div className="Aplicacion">
