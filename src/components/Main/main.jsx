@@ -10,8 +10,9 @@ function Main() {
       <div className="contain">
         <h1>Bienvenidos</h1>
         <div className='informacion'>
-          <p>Soy Mayra, desarrolladora FullStack MERN
+          <p>Hola! 👋🏽 Soy Mayra
           </p>
+          <p className='texto'>Desarrolladora FullStack MERN</p>
 
         </div>
         <div>

@@ -48,12 +48,13 @@ h1 {
 .informacion p{
     color: white;
     overflow: hidden;
-    border-right: 0.20em solid orange;
+    display: flex;
+    border-right: 0.10em solid rgb(235, 235, 235);
     white-space: nowrap;
     margin: 0 auto;
     max-width: fit-content;
     letter-spacing: 0.15em;
-    animation: typing 7.5s steps(30, end), blink-caret 0.5s step-end infinite;
+    animation: typing 8.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 
 @keyframes typing{
@@ -71,7 +72,7 @@ h1 {
         border-color: transparent;
     }
     50% {
-        border-color: orange;
+        border-color:  rgb(235, 235, 235);
     }
 }
 .clasemain button{
@@ -90,4 +91,9 @@ h1 {
 .clasemain button:hover{
     text-decoration: none;
     border: 0.3em black inset;
+}
+
+.informacion .texto{
+    animation: typing 10.5s steps(30, end), blink-caret 0.5s step-end infinite;
+
 }
