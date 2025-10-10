@@ -12,7 +12,7 @@ function Main() {
         <div className='informacion'>
           <p>Hola! 👋🏽 Soy Mayra
           </p>
-          <p className='texto'>Desarrolladora Full-Stack MERN - Project Manager - Sales Engineer</p>
+          <p className='texto'>Desarrolladora Full-Stack MERN <br /> Project Manager <br /> Sales Engineer</p>
 
         </div>
         <div>
